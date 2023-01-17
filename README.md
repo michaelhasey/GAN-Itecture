@@ -18,7 +18,7 @@ Gan-itecture is a research based project developed by Michael Hasey and Sage Ell
 A colab notebook has been provided to recreate the following experiment
 
 ```
-Roboflow_Yolov3_PyTorch.ipynb
+1_models/WGAN_GP.ipynb
 ```
 <br>
 
