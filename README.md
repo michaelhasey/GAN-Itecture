@@ -9,24 +9,17 @@ Gan-itecture is a research based project developed by Michael Hasey and Sage Ell
 
 ![](images/Intro.png)
 
-<br>
-
 ## Colab Notebook
-
-<br>
 
 A colab notebook has been provided to recreate the following experiment
 
 ```
 1_models/WGAN_GP.ipynb
 ```
-<br>
 
 ## Project Page
 
 An expanded description of GAN_Itecture can be found on its project page here:
-
-<br>
 
 ```
 https://www.michaelhasey.com/gan-exterior
@@ -36,16 +29,12 @@ https://www.michaelhasey.com/gan-exterior
 
 A white paper description the GAN_Itecture project can be found here:
 
-<br>
-
 ```
 https://www.michaelhasey.com/publication_ganitecture
 ```
 
 
 ## Table of Contents
-
-<br>
 
 - [Background](#Background)
 - [Pipeline](#Pipeline)
