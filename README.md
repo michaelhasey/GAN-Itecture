@@ -40,6 +40,7 @@ https://www.michaelhasey.com/publication_ganitecture
 - [Pipeline](#Pipeline)
 - [Dataset](#Dataset)
 - [Model](#Model)
+- [Implementation](#Implementation)
 - [Performance](#Performance)
 - [References](#References)
 - [Citation](#Citation)
@@ -86,12 +87,11 @@ For data, we used 10k labelled and sorted images of buildings designed by Zaha H
 
 <br>
 
-For this study, we have used a powerful algorithm called WWGAN-GP (Wasserstein Generative Adversarial Networks with Gradient Penalty) to generate building-like images in the style of Zaha Hadid, one of the most renowned parametric-design oriented architects of recent time.   This particular WGAN integrates a gradient penalty that prevents mode collapse.  Mode collapse, which results in a reduced variation of image output types, was a common problem in traditional WGAN. 
+For this study, we have used a powerful algorithm called WWGAN-GP (Wasserstein Generative Adversarial Networks with Gradient Penalty) to generate building-like images in the style of Zaha Hadid, one of the most renowned parametric-design oriented architects of recent time.   This particular WGAN integrates a gradient penalty that prevents mode collapse.  Mode collapse, which results in a reduced variation of image output types, was a common problem in traditional WGAN.
 
-Generative adversarial networks (GANs) are deep learning neural networks comprised of two algorithms that train each other to “learn” then “re-create” patterns of statistically significant phenomena found within pre-existing training sets of original data.  Original data may include images, music, text, and so on.  What makes GANs special is their ability to recreate new data that is incredibly similar to the originals, yet unequivocally unique.
+<br>
 
-The innovative nature of GANS is simple at its core.  Their basic primary software architecture hinges on two algorithmic networks; the generator and the discriminator.  In our study, the generator’s task is to attempt to create images of “fake” Zaha Hadid buildings that look convincingly similar to her real designs.  In this case, we have compiled more than 10,000 images of Zaha Hadid buildings into a training set which is fed into the generator portion of the GAN.  The discriminator’s task is to then decide whether the images of fake Zaha Hadid buildings appear convincingly real or not.  If the images do not look real, for example, look more like a cat then a building, the discriminator assigns a low score to the generated image.  This low score indicates to the generator that it must improve its effectiveness and produce more convincing images of “fake” Zaha Hadid styled buildings in hopes of fooling the discriminator next time.  As a result, the generator will correct its mistakes and will generate more and more convincing building design images over time.  As the generator gets better at creating convincing images, the discriminator must then improve its ability to identify fake images in order to outperform the generator. Through this back and forth, cat and mouse competition of trying to outdo one another, both the discriminator and the generator improve at their craft over thousands of iterations or what are called “epochs”.  In this way, GANs can, over time, “learn” to generate unique and extremely convincing images of Zaha Hadid styled buildings that are nearly indistinguishable from the originals.
-
+## Implementation
 
 <br>
 
